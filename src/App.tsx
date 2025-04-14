@@ -4,6 +4,7 @@ import './App.css';
 import UseStateComponent from "./components/UseState";
 import UseEffectComponent from "./components/UseEffect";
 import UseContextComponent from "./components/UseContext";
+import UseReducerComponent from "./components/UseReducer";
 
 function App() {
     return (
@@ -14,6 +15,8 @@ function App() {
             <UseEffectComponent/>
             <h1>useContext</h1>
             <UseContextComponent/>
+            <h1>useReducer</h1>
+            <UseReducerComponent/>
         </div>
     );
 }
