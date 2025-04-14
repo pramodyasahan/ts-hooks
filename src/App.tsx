@@ -5,6 +5,7 @@ import UseStateComponent from "./components/UseState";
 import UseEffectComponent from "./components/UseEffect";
 import UseContextComponent from "./components/UseContext";
 import UseReducerComponent from "./components/UseReducer";
+import UseRefComponent from "./components/UseRef";
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
             <UseContextComponent/>
             <h1>useReducer</h1>
             <UseReducerComponent/>
+            <h1>useRef</h1>
+            <UseRefComponent/>
         </div>
     );
 }
